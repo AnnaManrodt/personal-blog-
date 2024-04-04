@@ -1,0 +1,19 @@
+/* any shared typy face stuff some global colors and the header and footer areas cna be put in here  */
+
+.light {
+  background-image: url(simon-berger-twukN12EN7c-unsplash.jpg);
+  background-size: cover;
+  position: fixed;
+}
+
+.dark {
+  background-image: url(eberhard-grossgasteiger-6fCfkt11-eQ-unsplash.jpg);
+  background-size: cover;
+  position: fixed;
+}
+
+.checkbox input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
