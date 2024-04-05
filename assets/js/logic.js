@@ -1,26 +1,45 @@
 //reading and writing from local storage anything that both pages neeeds 
 // something for the graphics?
 //const username = document.querySelector("#Username");
-let username = document.querySelector("#Username");
-const title = "";
-const content ="this is a test ";
+//let username;
+//let title;
+//let container;
+// const lightDark = document.querySelector('#lightDark');
+// let mode = "dark";
+// const container = document.querySelector('.container');
+
+const sun = document.querySelector(".sun");
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark")
+  //sun.append("&#9790;");
+  ;}
+
+
+
+
+
+let formInfo = {
+username : document.querySelector("#Username"),
+title : document.querySelector("#title"),
+content : document.querySelector("#content"),
+}
+//console.log(formInfo)
+
+/*let username = document.querySelector("#Username");
+let title = document.querySelector("#title");
+let content = document.querySelector("#content");*/
+
 const submit = document.querySelector("#submitButton");
 
-let identity = localStorage.getItem('username')
+
+let identity = JSON.stringify(localStorage.getItem("formInfo"))
+
 
 submit.addEventListener('click', function(event){
   event.preventDefault()
-JSON.stringify (localStorage.setItem('identity', username))
+localStorage.setItem('formInfo', identity); // doesnt work yet
 })
 
-
-//localStorage.setItem(username, "");
-
-
-//localStorage.getItem(username);
-
-//let test1= localStorage.getItem(username)
-
-
-//console.log(test);
 

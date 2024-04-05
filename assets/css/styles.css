@@ -1,15 +1,27 @@
 /* any shared typy face stuff some global colors and the header and footer areas cna be put in here  */
 
-.light {
+body {
   background-image: url(simon-berger-twukN12EN7c-unsplash.jpg);
-  background-size: cover;
-  position: fixed;
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+h1{
+  padding-left: 90%;
+}
+
 
 .dark {
   background-image: url(eberhard-grossgasteiger-6fCfkt11-eQ-unsplash.jpg);
   background-size: cover;
-  position: fixed;
+  position: absolute;
 }
 
 .checkbox input {
@@ -18,6 +30,4 @@
   height: 0;
 }
 
-#myDiv{
-  background-color: aqua;
-}
+
