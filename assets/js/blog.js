@@ -1,4 +1,4 @@
-//const back = document.querySelector(".button")
+const back = document.querySelector(".button")
 const meow = localStorage.getItem("identity");
 console.log(meow)
 
@@ -9,6 +9,8 @@ function toggle() {
   }
 
 
-document.getElementById("backButton").addEventListener("click", function() {
-window.history.go(-1);
-});
+  back.addEventListener('click', function(event){
+    event.preventDefault()
+  window.location.href = "index.html";
+   // doesnt work yet
+  })

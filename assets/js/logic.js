@@ -16,7 +16,7 @@ function myFunction() {
   ;}
 
 let formInfo = {
-username : document.querySelector("#Username"),
+username : document.querySelector("#username"),
 title : document.querySelector("#title"),
 content : document.querySelector("#content"),
 }
@@ -41,7 +41,7 @@ console.log(identity)
 submit.addEventListener('click', function(event){
   event.preventDefault()
 localStorage.setItem('formInfo', identity);
-window.location.href = "assets/blog.html";
+window.location.href = "blog.html";
  // doesnt work yet
 })
 
