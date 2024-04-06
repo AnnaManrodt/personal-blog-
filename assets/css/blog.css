@@ -10,15 +10,14 @@ body {
 .dark {
   background-image: url(eberhard-grossgasteiger-6fCfkt11-eQ-unsplash.jpg);
   background-size: cover;
-  /* position: absolute; */
+/* position: relative;  
   color:rgb(224, 244, 250);
   /* text-decoration: underline; */
 }
 
-.header{
-  border-bottom:solid rgb(224, 244, 250) 2px ;
-  border-color: rgb(224, 244, 250);
-  border-spacing: 10px;
+header{
+  display: flex;
+  margin-top: -80px;
 }
 
 div{
@@ -27,13 +26,13 @@ div{
 justify-content: space-around;
 
 }
-header{
+/* header{
   justify-content: space-between;
-}
+  margin-right: 70%;
+} */
 
-.checkbox input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
 
+.sun{
+  font-size: 40px;
+margin-left: 92%;
+}
