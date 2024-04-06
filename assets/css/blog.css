@@ -1,7 +1,7 @@
 body {
   background-image: url(simon-berger-twukN12EN7c-unsplash.jpg);
   background-size: 100%;
-  position: absolute;
+  /* position: absolute; */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,25 @@ body {
 .dark {
   background-image: url(eberhard-grossgasteiger-6fCfkt11-eQ-unsplash.jpg);
   background-size: cover;
-  position: absolute;
+  /* position: absolute; */
+  color:rgb(224, 244, 250);
+  /* text-decoration: underline; */
+}
+
+.header{
+  border-bottom:solid rgb(224, 244, 250) 2px ;
+  border-color: rgb(224, 244, 250);
+  border-spacing: 10px;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+
+}
+header{
+  justify-content: space-between;
 }
 
 .checkbox input {

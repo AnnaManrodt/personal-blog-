@@ -22,7 +22,7 @@ content : document.querySelector("#content"),
 }
 //console.log(formInfo)
 
-let username = document.querySelector("#Username");
+let username = document.querySelector("#username");
 let title = document.querySelector("#title");
 let content = document.querySelector("#content");
 
@@ -40,7 +40,9 @@ console.log(identity)
 
 submit.addEventListener('click', function(event){
   event.preventDefault()
-localStorage.setItem('formInfo', identity); // doesnt work yet
+localStorage.setItem('formInfo', identity);
+window.location.href = "assets/blog.html";
+ // doesnt work yet
 })
 
 

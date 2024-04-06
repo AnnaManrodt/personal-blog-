@@ -8,27 +8,23 @@
 </head>
 <body>
   <header>
+    <div class="toggle">
+      <div onclick=" myFunction()" class="sun">&#9728;</div> 
+  </div>
     <div class="h1">
       <h1>My Beautiful Blog </h1>
     </div>
-      <div>
-        </div>
-          <div onclick=" myFunction()" class="sun">&#9728;</div> 
-        </div>
   </header>
   <main>
   <form class="form">
-    <label>Username</label>
-    <input type="text" id="Username">
-    <label>title</label>
-    <input type="text" id="title">
-    <label> content</label>
-    <input type="text" id="content">
-    <input id="submitButton"type="submit" value="submit">
-
-    <a href="assets/blog.html"> click here
-      <!-- <button>Take me to the login page</button> -->
-    </a>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username">
+    <label for="title">title</label>
+    <input type="text" id="title" name=title1">
+    <label for="content"> content</label>
+    <input type="text" id="content"  name="contenet">
+    <!-- <input id="submitButton"type="submit" value="submit" > -->
+    <input id="submitButton" type="submit" value="submit">
   </form>
   </main>
   <script src="./assets/js/logic.js"></script>
