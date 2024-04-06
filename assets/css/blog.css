@@ -1,0 +1,21 @@
+body {
+  background-image: url(simon-berger-twukN12EN7c-unsplash.jpg);
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark {
+  background-image: url(eberhard-grossgasteiger-6fCfkt11-eQ-unsplash.jpg);
+  background-size: cover;
+  position: absolute;
+}
+
+.checkbox input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
