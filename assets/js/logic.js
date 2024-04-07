@@ -27,6 +27,29 @@ submit.addEventListener('click', function(event){
 localStorage.setItem('formInfo', JSON.stringify(blog));
 window.location.href = "blog.html";
  // doesnt work yet
+if (form.checkValidity() === false){
+  console.log("form invalid");
+  document.getElementById('submitButton')
+}
 })
 
+
+const form = document.querySelector("form");
+
+
+// if (form.checkValidity() === false){
+//   console.log("form invalid");
+//   document.getElementById('submitButton')
+// }
+
+
+// function submitForm (action) {
+//   var form = document.getElementById('form')
+//   form.action = action
+//   if (form.checkValidity()) {
+//     form.submit()
+//   } else {
+//     alert('There is still an empty field')
+//   }
+// }
 

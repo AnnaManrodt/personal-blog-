@@ -1,38 +1,68 @@
+/* this styles the light theme for the whole blog page */
 body {
   background-image: url(simon-berger-twukN12EN7c-unsplash.jpg);
-  background-size: 100%;
+  background-size: cover;
   /* position: absolute; */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
 }
 
+/* this is the styling for the dark theme */
 .dark {
   background-image: url(eberhard-grossgasteiger-6fCfkt11-eQ-unsplash.jpg);
   background-size: cover;
-/* position: relative;  
-  color:rgb(224, 244, 250);
-  /* text-decoration: underline; */
+  color: rgb(224, 244, 250);
 }
 
-/* header{
-  display: flex;
-  margin-top: -80px;
-} */
+h1{
+  
+}
 
-div{
+div {
   display: flex;
   flex-direction: row;
 justify-content: space-around;
-
 }
-/* header{
-  justify-content: space-between;
-  margin-right: 70%;
-} */
+
+.data1{
+  border-top: solid;
+border-color: rgb(224, 244, 250);
+}
 
 
 .sun{
   font-size: 40px;
-margin-left: 92%;
+margin-left: 90%;
 }
+
+.footer{
+color: white;
+font-size: 16px;
+/* padding: 5px; */
+}
+
+footer{
+  border: solid;
+  border-radius: 10px;
+border-color: rgb(250, 249, 224);
+border-width: 1px;
+bottom: 0;
+}
+
+.button{
+  background-color: #047baa; /* Green */
+  border: none;
+  color: white;
+  padding: 1px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;}
+
+  .sectionInfo{
+color: rgb(87, 86, 86);
+text-align: left;
+border-bottom: solid;
+
+  }

@@ -1,6 +1,6 @@
 const back = document.querySelector(".button")
-const string = localStorage.getItem("formInfo")
-let formInfo = JSON.parse(string) || [];
+const gotInfo = localStorage.getItem("formInfo")
+let formInfo = JSON.parse(gotInfo) || [];
 let data1 = document.querySelector(".data1")
 
 function myFunction() {
@@ -19,7 +19,7 @@ function myFunction() {
 
   for (let i = 0; i < formInfo.length; i++){
     const section = document.createElement("section")
-    section.classList.add();
+    section.classList.add("sectionInfo");
 
     let html = `
     <h3>${formInfo.username}</h3>
