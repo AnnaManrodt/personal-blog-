@@ -18,6 +18,7 @@ h1 {
   margin-top: -2%;
 } 
 
+/* this styles the form so it is centered */
 
 .form{
   display: flex;  
@@ -29,6 +30,8 @@ h1 {
   font-size:20px;
 } 
 
+/* this is all the styling for the dark theme */
+
 .dark {
   background-image: url(eberhard-grossgasteiger-6fCfkt11-eQ-unsplash.jpg);
   background-size: cover;
@@ -37,6 +40,7 @@ h1 {
 
 }
 
+/* this styles the button on the form page */
 #submitButton{
   background-color: #047baa; 
   border: none;
@@ -48,3 +52,24 @@ h1 {
 margin: 10px;
   font-size: 16px;}
 
+  input.invalid {
+    border-color: red;
+  }
+
+  .sun{
+    font-size: 40px;
+  }
+
+  .footer{
+    color: white;
+    font-size: 16px;
+    /* padding: 5px; */
+    }
+    
+    footer{
+      border: solid;
+      border-radius: 10px;
+    border-color: rgb(250, 249, 224);
+    border-width: 1px;
+    bottom: 0;
+  }

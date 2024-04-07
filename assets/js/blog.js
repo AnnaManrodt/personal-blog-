@@ -22,9 +22,9 @@ function myFunction() {
     section.classList.add("sectionInfo");
 
     let html = `
-    <h3>${formInfo.username}</h3>
-    <p>${formInfo.title}</p>
-    <p>${formInfo.content}</p>`
+    <h3>${formInfo[i].username}</h3>
+    <p>${formInfo[i].title}</p>
+    <p>${formInfo[i].content}</p>`
 
     section.innerHTML = html;
   data1.appendChild(section);

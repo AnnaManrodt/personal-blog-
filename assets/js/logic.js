@@ -1,6 +1,7 @@
 const sun = document.querySelector(".sun");
 const string = localStorage.getItem("formInfo");
 let blog = JSON.parse(string) || [];
+const form = document.querySelector("form");
 
 function myFunction() {
   var element = document.body;
@@ -17,30 +18,30 @@ let submit = document.querySelector("#submitButton");
 
 
 submit.addEventListener('click', function(event){
-  event.preventDefault()
-  let  something = {
-    username : document.querySelector("input[id= 'username']").value,
-    title : document.querySelector("input[id= 'title']").value,
-    content : document.querySelector("input[id= 'content']").value
-    };
-    blog.push(something);
-localStorage.setItem('formInfo', JSON.stringify(blog));
-window.location.href = "blog.html";
- // doesnt work yet
-if (form.checkValidity() === false){
-  console.log("form invalid");
-  document.getElementById('submitButton')
-}
-})
+      if (form.checkValidity() === false){
+        console.log("form invalid");
+        form.querySelectorAll("input").forEach(i=>{
+          i.classList.add("invalid");
+        });
+      }
+      else {
+      event.preventDefault()
+      let  something = {
+        username : document.querySelector("input[id= 'username']").value,
+        title : document.querySelector("input[id= 'title']").value,
+        content : document.querySelector("input[id= 'content']").value
+        };
+        blog.push(something);
+    localStorage.setItem('formInfo', JSON.stringify(blog));
+    window.location.href = "blog.html"; }
+    // doesnt work yet
+}) 
 
 
-const form = document.querySelector("form");
 
 
-// if (form.checkValidity() === false){
-//   console.log("form invalid");
-//   document.getElementById('submitButton')
-// }
+
+
 
 
 // function submitForm (action) {

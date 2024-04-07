@@ -27,13 +27,13 @@ justify-content: space-around;
 
 .data1{
   border-top: solid;
-border-color: rgb(224, 244, 250);
+/* border-color: rgb(224, 244, 250); */
 }
 
 
 .sun{
   font-size: 40px;
-margin-left: 90%;
+margin-right: 90%;
 }
 
 .footer{
