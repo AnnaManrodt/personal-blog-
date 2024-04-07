@@ -2,7 +2,8 @@ const back = document.querySelector(".button")
 const string = localStorage.getItem("formInfo")
 let formInfo = JSON.parse(string) || [];
 let data1 = document.querySelector(".data1")
-function toggle() {
+
+function myFunction() {
     var element = document.body;
     element.classList.toggle("dark");
     //sun.append("&#9790;");
