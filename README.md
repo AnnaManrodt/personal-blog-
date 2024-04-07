@@ -17,5 +17,5 @@ Thank you to my coding boot camp for giving me the knowledge to complete this ch
 ## Link
 Thank you to unsplash for letting me use a free img for both the light and dark theme on this website 
 you can find more amazing imgs like the ones in this project from this wonderful site [here](unsplash.com)
-To see the deployed version of this page, [click here]()
+To see the deployed version of this page, [click here](https://annamanrodt.github.io/personal-blog-/)
 
