@@ -21,10 +21,12 @@ function myFunction() {
     const section = document.createElement("section")
     section.classList.add("sectionInfo");
 
-    let html = `
-    <h3>${formInfo[i].username}</h3>
-    <p>${formInfo[i].title}</p>
-    <p>${formInfo[i].content}</p>`
+    let html = `<section class= "content">
+    <h3 class= "h3">${formInfo[i].title}</h3>
+    <p>${formInfo[i].content}</p>
+    <p> posted by: ${formInfo[i].username}</p>
+    </section>`
+
 
     section.innerHTML = html;
   data1.appendChild(section);
