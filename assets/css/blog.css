@@ -72,6 +72,16 @@ border-bottom: solid;
   text-decoration: underline;
 }
 
-/* .content{
- 
-} */
+h1{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+

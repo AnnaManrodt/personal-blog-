@@ -73,3 +73,24 @@ margin: 10px;
     border-width: 1px;
     bottom: 0;
   }
+
+  h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  main{
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 800px;
+  }
+
+  .footer{
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 800px; */
+  }
