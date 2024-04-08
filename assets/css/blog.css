@@ -24,13 +24,13 @@ div {
   flex-direction: row;
 justify-content: space-around;
 }
-
+/* adds a lne above each of the blog posts  */
 .data1{
   border-top: solid;
 /* border-color: rgb(224, 244, 250); */
 }
 
-
+/* styles the sun */
 .sun{
   font-size: 40px;
 margin-right: 90%;
@@ -42,13 +42,13 @@ font-size: 16px;
 /* padding: 5px; */
 }
 
-footer{
+/* footer{
   border: solid;
   border-radius: 10px;
 border-color: rgb(250, 249, 224);
 border-width: 1px;
 bottom: 0;
-}
+} */
 
 .button{
   background-color: #047baa; /* Green */
@@ -66,12 +66,12 @@ text-align: left;
 border-bottom: solid;
 
   }
-
+ /* underlines the title of each post \ */
 .h3{
   font-size: 30px;
   text-decoration: underline;
 }
 
-.content{
+/* .content{
  
-}
+} */
