@@ -18,7 +18,7 @@ submit.addEventListener('click', function(event){
   let  something = {
     username : document.querySelector("input[id= 'username']").value,
     title : document.querySelector("input[id= 'title']").value,
-    content : document.querySelector("input[id= 'content']").value
+    content : document.querySelector("input[id= 'blogContent']").value
     };
     blog.push(something);
 localStorage.setItem('formInfo', JSON.stringify(blog));

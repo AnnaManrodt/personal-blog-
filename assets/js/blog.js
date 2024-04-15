@@ -8,7 +8,7 @@ function myFunction() {
     element.classList.toggle("dark");
     //sun.append("&#9790;");
     }
-
+ 
     //this makes the back button work
 
     back.addEventListener('click', function(event){
@@ -22,9 +22,9 @@ function myFunction() {
     section.classList.add("sectionInfo");
 
     let html = `<section class= "content">
-    <h3 class= "h3">${formInfo[i].title}</h3>
-    <p>${formInfo[i].content}</p>
-    <p> posted by: ${formInfo[i].username}</p>
+    <h3 class= "blogTitle">${formInfo[i].title}</h3>
+    <p class= "blog">${formInfo[i].content}</p>
+    <p class= "blog"> posted by: ${formInfo[i].username}</p>
     </section>`
 
 

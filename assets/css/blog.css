@@ -15,9 +15,6 @@ body {
   color: rgb(224, 244, 250);
 }
 
-h1{
-  
-}
 
 div {
   display: flex;
@@ -31,7 +28,7 @@ justify-content: space-around;
 }
 
 /* styles the sun */
-.sun{
+.lightDarkMode{
   font-size: 40px;
 margin-right: 90%;
 }
@@ -67,9 +64,14 @@ border-bottom: solid;
 
   }
  /* underlines the title of each post \ */
-.h3{
+.blogTitle{
   font-size: 30px;
   text-decoration: underline;
+  color: rgb(224, 244, 250);
+}
+
+.blog{
+  color: rgb(224, 244, 250);
 }
 
 h1{

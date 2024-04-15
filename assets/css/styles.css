@@ -40,6 +40,7 @@ h1 {
 
 }
 
+
 /* this styles the button on the form page */
 #submitButton{
   background-color: #047baa; 
@@ -56,7 +57,7 @@ margin: 10px;
     border-color: red;
   }
 
-  .sun{
+  .lightDarkMode{
     font-size: 40px;
   }
 

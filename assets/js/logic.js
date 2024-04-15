@@ -1,4 +1,4 @@
-const sun = document.querySelector(".sun");
+const sun = document.querySelector(".lightDarkMode");
 const string = localStorage.getItem("formInfo");
 let blog = JSON.parse(string) || [];
 const form = document.querySelector("form");
@@ -15,6 +15,10 @@ let submit = document.querySelector("#submitButton");
 
 
 // let identity = JSON.stringify(localStorage.getItem("formInfo.value"))
+
+
+
+
 
 
 // function submitForm (action) {
